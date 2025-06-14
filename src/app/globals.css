@@ -17,6 +17,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-ou-pink: #D21B5B;
+  --color-ou-green: #6BA2B6;
+  --color-ou-grey: #D8D8D8;
+  --color-ou-white: #F9FBFC;
 }
 
 @media (prefers-color-scheme: dark) {
