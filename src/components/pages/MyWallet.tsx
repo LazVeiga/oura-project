@@ -8,22 +8,21 @@ import Link from "next/link";
 
 export default function MyWallet() {
     return (
-        <Link href="/myWallet">
+        <>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="space-y-6">
-                    <BalanceCard />
-                    <SpendingsCard />
-                    <PaymentsCard />
+                    <BalanceCard/>
+                    <SpendingsCard/>
+                    <PaymentsCard/>
                 </div>
                 <div className="space-y-6">
-                    <CreditCard />
-                    <SavingsCard />
+                    <CreditCard/>
+                    <SavingsCard/>
                 </div>
                 <div className="space-y-6">
-                    <TransactionsCard />
+                    <TransactionsCard/>
                 </div>
             </div>
-        </Link>
-
+        </>
     );
 }
