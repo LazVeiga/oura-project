@@ -21,6 +21,7 @@
   --color-ou-green: #6BA2B6;
   --color-ou-grey: #D8D8D8;
   --color-ou-white: #F9FBFC;
+  --color-ou-grey-dark: #2A2A2A;
 }
 
 @media (prefers-color-scheme: dark) {
