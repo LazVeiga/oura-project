@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
-import Sidebar from "@/components/SidebarMenu";
-import MyWallet from "@/components/MyWallet";
+import Sidebar from "@/components/commons/SidebarMenu";
+import MyWallet from "@/components/pages/MyWallet";
+import Header from "@/components/commons/Header";
 
 export default function Home() {
     return (
